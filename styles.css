@@ -13,3 +13,18 @@ h2 {
     color: #24ABB3;
     text-align:left;
 }
+
+h3 {
+    color: #00DBE5;
+    text-decoration: underline;
+    text-decoration-color: #24ABB3;
+    /*I used this website to find out how to change the text underline color https://stackoverflow.com/questions/1175383/changing-a-link-underline-color */
+}
+
+.projects {
+    text-align: center;
+}
+
+p {
+    color: #24ABB3;
+}
