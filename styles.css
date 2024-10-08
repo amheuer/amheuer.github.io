@@ -1,6 +1,6 @@
 
 body {
-    background-color: #000000;
+    background-color: #1f1f1f;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 }
@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-    color: #ffffff;
+    color: rgb(73, 155, 255);
     text-align:left;
 }
 
@@ -22,33 +22,43 @@ h3 {
     /*I used this website to find out how to change the text underline color https://stackoverflow.com/questions/1175383/changing-a-link-underline-color */
 }
 
-.projects { display:flex; flex-wrap:wrap; } 
+.projectHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    /* I found this code on this website https://www.joshwcomeau.com/css/center-a-div/*/
+}
 .project {
-width: 30%;
-margin: 10px;
-padding: 10px 10px;
-background: rgb(71, 154, 255); 
-border-radius: 2%;
+    /* I found how to use float: left; from this website https://learn.shayhowe.com/html-css/positioning-content/*/
+    float: left;
+    width: 310px;
+    height: 450px;
+    margin: 10px;
+    padding: 10px 10px;
+    background: rgb(71, 154, 255); 
+    border-radius: 1%;
+    text-align: center;
 }
 p {
     color: #ffffff;
 }
 
 .project img{
-    
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 1px solid rgb(255, 255, 255); 
+    border: 1px solid rgb(0, 0, 0); 
     display: block;
     margin: auto;
-    }
+}
 
-    a { 
-        text-decoration: none;
-        color: white;
-        }
-        .project p { 
-        text-align: center;
-        margin: 15px;
-        }
+a { 
+    text-decoration: none;
+    color: white;
+}
+        
+.project p { 
+    margin: 15px;
+}
