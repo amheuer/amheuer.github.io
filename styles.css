@@ -13,6 +13,8 @@ h1 {
 h2 {
     color: rgb(73, 155, 255);
     text-align:left;
+    margin-top: 1px;
+    margin-left: 50px;
 }
 
 h3 {
@@ -26,7 +28,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     gap: 4px;
     /* I found this code on this website https://www.joshwcomeau.com/css/center-a-div/*/
 }
@@ -34,7 +36,7 @@ h3 {
     /* I found how to use float: left; from this website https://learn.shayhowe.com/html-css/positioning-content/*/
     float: left;
     width: 310px;
-    height: 450px;
+    height: 400px;
     margin: 10px;
     padding: 10px 10px;
     background: rgb(71, 154, 255); 
@@ -47,7 +49,6 @@ p {
 
 .project img{
     width: 300px;
-    height: 300px;
     margin: 10px;
     border: 1px solid rgb(0, 0, 0); 
     display: block;
