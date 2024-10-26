@@ -20,7 +20,7 @@ h2 {
 h3 {
     color: #ffffff;
     text-decoration: underline;
-    text-decoration-color: #ffffff;
+    margin-left: 5%;
     /*I used this website to find out how to change the text underline color https://stackoverflow.com/questions/1175383/changing-a-link-underline-color */
 }
 
@@ -62,4 +62,33 @@ a {
         
 .project p { 
     margin: 15px;
+}
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: left;
+}
+
+.about p {
+    width:60%;
+    text-align:left;
+    margin-left: 5%;
+    line-height: 125%;
+}
+.skills p {
+    width:60%;
+    text-align:left;
+    margin-left: 5%;
+    line-height: 125%;
+}
+
+.about img {
+    width: 165;
+    height: 200px;
+    border-radius: 5%;
+    background: rgb(71, 154, 255); 
+    border: 5px solid rgb(205, 205, 205); 
 }
