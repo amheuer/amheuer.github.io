@@ -1,0 +1,31 @@
+.site-header {
+    background-color: #222;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem 3rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; 
+    text-align: center;         
+  }
+
+  .nav-links {
+    text-align: center; 
+    flex-direction: row;
+    padding: 0;
+  }
+
+}
