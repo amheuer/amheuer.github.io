@@ -1,0 +1,14 @@
+.contact{
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+.contact{
+    margin: 0rem;
+    gap: 0rem;
+}
+}

@@ -1,0 +1,21 @@
+.intro-area {
+    padding: 10rem 1rem;
+    display: flex;
+    gap: 3rem;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    padding: 1rem;
+    align-items: center;
+    max-width: 50rem;
+}
+
+@media (max-width: 768px) {
+    .intro-area {
+        gap: 0rem;
+        flex-wrap: wrap;
+    }
+}

@@ -1,5 +1,8 @@
 .site-header {
-    background-color: #222;
+   background-color: #353535;
+    position: fixed;
+    width: 100%;
+     z-index: 1000;
 }
 
 .navbar {
@@ -15,17 +18,28 @@
     gap: 3rem;
 }
 
+.logo{
+    font-family: "Keania One", sans-serif;
+}
 
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column; 
-    text-align: center;         
+    text-align: center;    
+    padding: 0rem 0rem;     
   }
 
   .nav-links {
     text-align: center; 
     flex-direction: row;
-    padding: 0;
+    padding: 0rem;
+    gap: 0rem;
+  }
+  li{
+    padding:.5rem;
+  }
+  h1{
+    padding: 1rem;
   }
 
 }
