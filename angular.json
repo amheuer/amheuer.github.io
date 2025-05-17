@@ -39,7 +39,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "amheuer.github.io",
+              "baseHref": "/amheuer.github.io/",
               "budgets": [
                 {
                   "type": "initial",
