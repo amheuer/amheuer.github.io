@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { AndrewImageComponent } from './andrew-image/andrew-image.component';
 import { MainDescriptionComponent } from './main-description/main-description.component';
-import { ExperianceComponent } from './experiance/experiance.component';
+import { ExperianceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
 
 @Component({
